@@ -1,8 +1,8 @@
 'use client';
 
 import React from 'react';
-import RestrictedDashboard from '@/components/dashboard/RestrictedDashboard';
+import DashboardGuard from '@/components/dashboard/DashboardGuard';
 
 export default function Dashboard() {
-    return <RestrictedDashboard />;
+    return <DashboardGuard />;
 }

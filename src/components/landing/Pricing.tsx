@@ -39,9 +39,14 @@ export function PricingCard() {
                     ))}
                 </ul>
 
-                <button className="w-full py-5 bg-red-600 hover:bg-red-500 text-white font-bold text-lg rounded-xl transition-all transform hover:-translate-y-1 shadow-lg shadow-red-600/30 cursor-pointer">
+                <a
+                    href="https://nowpayments.io/payment/?iid=5566724790"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block w-full py-5 bg-red-600 hover:bg-red-500 text-white font-bold text-lg rounded-xl transition-all transform hover:-translate-y-1 shadow-lg shadow-red-600/30 cursor-pointer text-center"
+                >
                     Get Started Now
-                </button>
+                </a>
                 <p className="text-center text-sm text-gray-500 mt-6">Cancel anytime. No hidden fees.</p>
             </div>
         </div>
