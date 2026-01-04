@@ -26,8 +26,19 @@ export default function Hero() {
 
       {/* Navbar Overlay */}
       <nav className="relative z-50 w-full px-6 py-6 flex justify-between items-center max-w-7xl mx-auto">
-        <div className="text-2xl font-bold text-white tracking-tighter hover:scale-105 transition-transform cursor-pointer">
-          Chainfessions
+        <div className="flex flex-col items-start gap-3">
+          <div className="text-2xl font-bold text-white tracking-tighter hover:scale-105 transition-transform cursor-pointer">
+            Chainfessions
+          </div>
+          <a href="https://www.producthunt.com/products/chainfessions-2?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-chainfessions-3" target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1057976&theme=dark&t=1767502570499"
+              alt="Chainfessions - Fully managed SEO that actually scales your traffic. | Product Hunt"
+              width="250"
+              height="54"
+              style={{ width: '250px', height: '54px' }}
+            />
+          </a>
         </div>
         <div className="hidden md:flex gap-8 text-sm font-medium text-gray-300">
           <Link href="#features" className="hover:text-red-500 transition-colors">Features</Link>
