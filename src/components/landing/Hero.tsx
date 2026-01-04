@@ -75,17 +75,7 @@ export default function Hero() {
             </Link>
           </div>
 
-          <div className="mt-12 animate-fade-in-up delay-300">
-            <a href="https://www.producthunt.com/products/chainfessions-2?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-chainfessions-3" target="_blank" rel="noopener noreferrer">
-              <img
-                src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1057976&theme=dark&t=1767502570499"
-                alt="Chainfessions - Fully managed SEO that actually scales your traffic. | Product Hunt"
-                width="250"
-                height="54"
-                style={{ width: '250px', height: '54px' }}
-              />
-            </a>
-          </div>
+
         </div>
       </div>
 
